@@ -8,7 +8,7 @@ var zahirr = db.get("zahirr");
 	console.log('')
 }
 
-var creator = "@zeeoneofc"
+var creator = "PINOMD"
 var ytdl = require('ytdl-core');
 var ytpl = require('ytpl');
 var secure = require('ssl-express-www');
@@ -139,7 +139,7 @@ loghandler = {
     }
 }
 
-const listkey = ["Alphabot", "zeeoneofc"];
+const listkey = ["freeapi", "apino"];
 //router.use(favicon(__path + "/views/logo.ico"));
 
 var len = 15
