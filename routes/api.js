@@ -1213,6 +1213,10 @@ router.get('/nulis', async (req, res, next) => {
 })
 })
 
+router.get('/ceritahantu', async (req, res, next) => {
+	scrapper.ceritahantu().then(resu => res.json(resu))
+})
+
 router.get('/textmaker', async (req, res, next) => {
         var theme = req.query.theme,
              text = req.query.text,
